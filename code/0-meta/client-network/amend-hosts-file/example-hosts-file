@@ -1,0 +1,40 @@
+
+# a default on any Linux or Windows might be
+# IPv4
+127.0.0.1    localhost.localdomain localhost
+
+
+# amendments
+# you may use those FQDNs from the client (e.g. your local notebook) or 
+# server (e.g. in a remote Bash session) to access your local SSH tunnel trough it. 
+# 
+# Obviously you access your local network interfaces (127.0.0.1) and by proxy your 
+# SSH tunnel, which is listening on this network interface 
+# on specific ports (e.g. "127.0.0.1:2308" for port 2308 on localhost).
+#
+# All FQDNs are convenience only and might be replaced with the associated IP 
+# respectively -- the amendments are hence optional for the code to work
+
+
+# the IP and logical FQDN name for Hypervisor, VM or the remote Linux server
+# TODO: CHANGE ME
+10.2.3.4     host.docker.devops.svc.cluster.local
+
+
+# this FQDN will be used to access the Docker web ui through my browser
+127.0.0.1    webui.docker.devops.svc.cluster.local
+
+# Only for specific development reasons, I have connected my client's local IDE on Windows
+# to my server's Docker Daemon -- this lets me interact with my cluster as if it were local.
+#
+# I must admit, the IDE integration has flaws; additionally the Docker Daemon on the server 
+# needs to listen to this network's interface: I used localhost on the server, so the 
+# Docker Daemon is never exposed to outside access -- it will only be accessible through 
+# my SSH tunnel.
+127.0.0.1    daemon.docker.devops.svc.cluster.local
+
+# my convenient access URI for ReST calls to the structured data (JSON)
+127.0.0.1    iris.devops.svc.cluster.local
+
+# my convenient access URI for ReST calls to the Deep Learning path (image)
+127.0.0.1    deeplearning.devops.svc.cluster.local

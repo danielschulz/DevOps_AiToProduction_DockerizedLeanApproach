@@ -1,0 +1,103 @@
+{
+  "model_spec": {
+    "name": "iris",
+    "signature_name": "",
+    "version": "2"
+  },
+  "metadata": {
+    "signature_def": {
+      "signature_def": {
+        "predict-iris": {
+          "inputs": {
+            "inputs": {
+              "dtype": "DT_FLOAT",
+              "tensor_shape": {
+                "dim": [
+                  {
+                    "size": "-1",
+                    "name": ""
+                  },
+                  {
+                    "size": "4",
+                    "name": ""
+                  }
+                ],
+                "unknown_rank": false
+              },
+              "name": "x:0"
+            }
+          },
+          "outputs": {
+            "prediction": {
+              "dtype": "DT_FLOAT",
+              "tensor_shape": {
+                "dim": [
+                  {
+                    "size": "-1",
+                    "name": ""
+                  },
+                  {
+                    "size": "3",
+                    "name": ""
+                  }
+                ],
+                "unknown_rank": false
+              },
+              "name": "sequential_1/dense_2/Softmax:0"
+            }
+          },
+          "method_name": "tensorflow/serving/predict"
+        },
+        "serving_default": {
+          "inputs": {
+            "inputs": {
+              "dtype": "DT_STRING",
+              "tensor_shape": {
+                "dim": [],
+                "unknown_rank": true
+              },
+              "name": "tf_example:0"
+            }
+          },
+          "outputs": {
+            "scores": {
+              "dtype": "DT_FLOAT",
+              "tensor_shape": {
+                "dim": [
+                  {
+                    "size": "-1",
+                    "name": ""
+                  },
+                  {
+                    "size": "3",
+                    "name": ""
+                  }
+                ],
+                "unknown_rank": false
+              },
+              "name": "TopKV2:0"
+            },
+            "classes": {
+              "dtype": "DT_STRING",
+              "tensor_shape": {
+                "dim": [
+                  {
+                    "size": "-1",
+                    "name": ""
+                  },
+                  {
+                    "size": "3",
+                    "name": ""
+                  }
+                ],
+                "unknown_rank": false
+              },
+              "name": "index_to_string_Lookup:0"
+            }
+          },
+          "method_name": "tensorflow/serving/classify"
+        }
+      }
+    }
+  }
+}

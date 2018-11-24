@@ -102,3 +102,22 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# password file
+resources/presentation/credentials.txt
+resources/photos/credentials.txt
+
+# IntelliJ IDEA project files
+.idea/*
+
+# for legal licensing reasons only, two images and the source presentation may not be provided in raw format
+code/2-uc-deeplearning-image/2-client-calls/1-requests/kitten.jpg
+code/2-uc-deeplearning-image/2-client-calls/1-requests/cute-chick-with-hairy-pussy.jpg
+resources/presentation/~$DevOps_AiToProduction_DockerizedLeanApproach.pptx
+resources/presentation/DevOps_AiToProduction_DockerizedLeanApproach.pptx
+resources/presentation/20181114_DevOps_AiToProduction_DockerizedLeanApproach.pdf
+
+# extracted git repos
+code/1-uc-structured-data-json/1-server-setup/1-data-to-deploy/raw-binaries/tensorflow_serving_tutorial
+code/2-uc-deeplearning-image/1-server-setup/1-data-to-deploy/raw-binaries/mxnet

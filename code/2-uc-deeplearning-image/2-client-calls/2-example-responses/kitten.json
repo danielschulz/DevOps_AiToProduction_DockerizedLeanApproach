@@ -1,0 +1,26 @@
+{
+  "prediction": [
+    [
+      {
+        "class": "n02124075 Egyptian cat",
+        "probability": 0.8515274524688721
+      },
+      {
+        "class": "n02123045 tabby, tabby cat",
+        "probability": 0.09674201160669327
+      },
+      {
+        "class": "n02123159 tiger cat",
+        "probability": 0.039091333746910095
+      },
+      {
+        "class": "n02128385 leopard, Panthera pardus",
+        "probability": 0.00610595615580678
+      },
+      {
+        "class": "n02127052 lynx, catamount",
+        "probability": 0.0031043027993291616
+      }
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "prediction": [
+    [
+      {
+        "class": "n02123394 Persian cat",
+        "probability": 0.6693608164787292
+      },
+      {
+        "class": "n02364673 guinea pig,Cavia cobaya",
+        "probability": 0.09965608268976212
+      },
+      {
+        "class": "n02441942 weasel",
+        "probability": 0.07865391671657562
+      },
+      {
+        "class": "n02120079 Arctic fox, white fox, Alopex lagopus",
+        "probability": 0.03634768724441528
+      },
+      {
+        "class": "n02342885 hamster",
+        "probability": 0.03277695178985596
+      }
+    ]
+  ]
+}

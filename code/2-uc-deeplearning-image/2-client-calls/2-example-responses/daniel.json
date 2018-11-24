@@ -1,0 +1,26 @@
+{
+  "prediction": [
+    [
+      {
+        "class": "n02883205 bow tie, bow-tie, bowtie",
+        "probability": 0.6571792960166931
+      },
+      {
+        "class": "n04350905 suit, suit of clothes",
+        "probability": 0.26025864481925964
+      },
+      {
+        "class": "n03763968 military uniform",
+        "probability": 0.04467208310961723
+      },
+      {
+        "class": "n04591157 Windsor tie",
+        "probability": 0.03302549943327904
+      },
+      {
+        "class": "n03630383 lab coat, laboratory coat",
+        "probability": 0.0017830224242061377
+      }
+    ]
+  ]
+}
